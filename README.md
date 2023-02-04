@@ -2,6 +2,8 @@
 
 Example Code for Java in a Nutshell (8th Edition)
 
+NOTE: This repo will be populated when the 8th Edition is released.
+
 This is the example programs and samples from Java in a Nutshell (8th Edition) 
 written by Ben Evans and Jason Clark, with David Flanagan, and published by O'Reilly.
 
