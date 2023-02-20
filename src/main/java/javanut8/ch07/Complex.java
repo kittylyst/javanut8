@@ -1,6 +1,5 @@
 package javanut8.ch07;
 
-//tag::DOC[]
 /**
  * This immutable class represents <i>complex numbers</i>.
  *
@@ -45,4 +44,3 @@ public class Complex {
         return new Complex(c1.x + c2.x, c1.y + c2.y);
     }
 }
-//end::DOC[]

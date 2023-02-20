@@ -1,6 +1,5 @@
 package javanut8.ch03;
 
-//tag::CAR[]
 public class SportsCar extends Car {
 
     private double efficiency;
@@ -24,4 +23,3 @@ public class SportsCar extends Car {
     }
 
 }
-//end::CAR[]

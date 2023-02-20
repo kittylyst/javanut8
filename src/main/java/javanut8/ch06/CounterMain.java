@@ -7,7 +7,6 @@ package javanut8.ch06;
 public class CounterMain {
 
     public static void main(String[] args) throws InterruptedException {
-    //tag::MAIN[]
     Counter c = new Counter();
     int REPEAT = 10_000_000;
     Runnable r = () -> {
@@ -26,6 +25,5 @@ public class CounterMain {
     int anomaly = (2 * REPEAT) - c.getCounter();
     double perc = ((double) anomaly * 100) / (2 * REPEAT);
     System.out.println("Lost updates: "+ anomaly +" ; % = " + perc);
-    //end::MAIN[]
     }
 }

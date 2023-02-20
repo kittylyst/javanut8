@@ -26,7 +26,6 @@ public final class HTTPExample {
     }
 
     public void run2() throws Exception {
-        //tag::HTTP2[]
         var client = HttpClient.newBuilder().build();
         var uri = new URI("https://www.oreilly.com");
         var request = HttpRequest.newBuilder(uri).build();
@@ -35,7 +34,6 @@ public final class HTTPExample {
                 ofString(Charset.defaultCharset()));
         var body = response.body();
         System.out.println(body);
-        //end::HTTP2[]
     }
 
     public void run() throws Exception {

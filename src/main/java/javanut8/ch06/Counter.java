@@ -1,6 +1,5 @@
 package javanut8.ch06;
 
-// tag::COUNT[]
 public class Counter {
     private int i = 0;
 
@@ -9,5 +8,4 @@ public class Counter {
     }
     public int getCounter() { return i; }
 }
-//end::COUNT[]
 

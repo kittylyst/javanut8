@@ -1,6 +1,5 @@
 package javanut8.ch03.shapes;
 
-//tag::RECT[]
 public class Rectangle extends Shape {
     // Instance data
     protected double w, h;
@@ -18,4 +17,3 @@ public class Rectangle extends Shape {
     public double area() { return w*h; }                 
     public double circumference() { return 2*(w + h); }   
 }
-//end::RECT[]

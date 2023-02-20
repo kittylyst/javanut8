@@ -5,7 +5,6 @@ package javanut8.ch12;
  * 
  * @author ben
  */
-//tag::JAVA9[]
 public class GetPID {
     public static long getPid() {
         // Use new Java 9 Process API...
@@ -13,4 +12,3 @@ public class GetPID {
         return processHandle.getPid();
     }
 }
-//end::JAVA9[]

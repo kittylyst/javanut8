@@ -7,7 +7,6 @@ import java.lang.management.ManagementFactory;
  * 
  * @author ben
  */
-//tag::JAVA8[]
 public class GetPID {
     public static long getPid() {
         // This rather clunky call uses JMX to return the name that
@@ -27,4 +26,3 @@ public class GetPID {
         }
     }
 }
-//end::JAVA8[]

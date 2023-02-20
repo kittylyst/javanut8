@@ -1,6 +1,5 @@
 package javanut8.ch12;
 
-//tag::STEAL[]
 import java.util.Arrays;
 import sun.text.resources.FormatData;
 
@@ -20,4 +19,3 @@ public final class FormatStealer extends FormatData {
         System.out.println(Arrays.toString(eras));
     }
 }
-//end::STEAL[]

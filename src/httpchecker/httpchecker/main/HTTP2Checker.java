@@ -5,7 +5,6 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.nio.charset.Charset;
 
-//tag::CHECKER[]
 import static java.net.http.HttpResponse.BodyHandlers.ofString;
 
 public final class HTTP2Checker {
@@ -24,4 +23,3 @@ public final class HTTP2Checker {
         }
     }
 }
-//end::CHECKER[]

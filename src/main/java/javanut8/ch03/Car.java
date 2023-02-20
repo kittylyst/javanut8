@@ -1,6 +1,5 @@
 package javanut8.ch03;
 
-//tag::CAR[]
 public class Car {
     public static final double LITRE_PER_100KM = 8.9;
 
@@ -33,4 +32,3 @@ public class Car {
         return 100 * fuelTankCapacity / LITRE_PER_100KM;
     }
 }
-//end::CAR[]

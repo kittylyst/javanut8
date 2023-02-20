@@ -1,4 +1,3 @@
-//tag::CIRCLE[]
 package javanut8.ch03.shapes; // Specify a package for the class
 
 public class Circle {     // The class is still public
@@ -31,4 +30,3 @@ public class Circle {     // The class is still public
     public double area() { return PI * r * r; }
     public double circumference() { return 2 * PI * r; }
 }
-//end::CIRCLE[]
