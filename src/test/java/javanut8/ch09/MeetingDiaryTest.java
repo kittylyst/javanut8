@@ -103,7 +103,7 @@ public class MeetingDiaryTest {
     @Test
     public void format_time_of_meeting() {
         String formatString = "yyyy-MMM-dd hh:mm a";
-        String expectedOutput = "2014-Mar-29 09:00 AM";
+        String expectedOutput = "2014-Mar-29 09:00 am";
         ZonedDateTime expectedStartTime = ZonedDateTime.of(LocalDate.of(2014, 3, 29), LocalTime.of(9, 0), ZoneId.of("Europe/London"));
         ZonedDateTime expectedEndTime = ZonedDateTime.of(LocalDate.now(), LocalTime.of(10,0), ZoneId.of("Europe/London"));
         String expectedTitle = "Morning Catchup";
@@ -115,7 +115,7 @@ public class MeetingDiaryTest {
     
     @Test
     public void insert_meeting_from_string() throws Exception {
-        String meetingToParse = "2014-Mar-29 09:00 AM GMT--2014-Mar-29 10:00 AM GMT--Jims Meeting";
+        String meetingToParse = "2014-Mar-29 09:00 am GMT--2014-Mar-29 10:00 am GMT--Jims Meeting";
         String formatString = "yyyy-MMM-dd hh:mm a zzz";
         Meeting meeting = meetingDiary.bookMeeting(formatString, meetingToParse);
         ZonedDateTime startTime = ZonedDateTime.of(LocalDate.of(2014, 3, 29), LocalTime.of(9, 0), ZoneId.of("GMT"));

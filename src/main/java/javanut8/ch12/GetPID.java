@@ -9,6 +9,8 @@ import java.lang.management.ManagementFactory;
  */
 public class GetPID {
     public static long getPid() {
+        System.out.println("Non-portable version");
+
         // This rather clunky call uses JMX to return the name that
         // represents the currently running JVM. This name is in the
         // format <pid>@<hostname>—on OpenJDK and Oracle VMs only—there
