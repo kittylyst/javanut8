@@ -22,4 +22,17 @@ If you run into issues:
 - Check out the **Java in a Nutshell** GitHub repo
 - Experiment—learning happens when you explore!
 
+## 🦾 Going Further
+
+The sandbox project uses some more advanced Java technologies that are not
+included in the core language (& which are not covered in the book in any
+detail).
+
+These are primarily *Maven*, the most popular tool for building Java projects
+and *JUnit*, the most popular unit testing library.
+
+Learning these two tools, along with *git*, will help you move beyond just
+simple examples to real Java projects and help you start your journey as a
+Java software engineer!
+
 Happy coding! 🎉
